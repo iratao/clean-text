@@ -1,0 +1,44 @@
+The general rules are:
+1. Remove all advertisements and sponsored content
+2. Remove navigation elements like table of contents
+3. Remove footers and related articles sections
+4. Keep the main content and headings
+5. Remove any social media links or sharing buttons
+
+Here is an example:
+
+Input text:
+```
+# Recipe Blog
+
+ADVERTISEMENT
+
+## Navigation
+- Home
+- Recipes
+- About
+
+## How to Bake Cookies
+These cookies are amazing!
+
+SPONSORED: Check out our baking tools!
+
+### Instructions
+1. Mix ingredients
+2. Bake at 350°F
+
+---
+Related Posts | Share on Facebook | Subscribe
+```
+
+Should be cleaned to:
+```
+# Recipe Blog
+
+## How to Bake Cookies
+These cookies are amazing!
+
+### Instructions
+1. Mix ingredients
+2. Bake at 350°F
+``` 
