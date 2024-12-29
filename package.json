@@ -1,5 +1,5 @@
 {
-  "name": "clean-text",
+  "name": "@lerypapa/clean-text",
   "version": "1.0.0",
   "description": "Batch process text files using OpenAI API to clean and transform content",
   "main": "dist/index.js",
